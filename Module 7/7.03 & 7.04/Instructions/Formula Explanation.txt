@@ -1,0 +1,5 @@
+
+where g is the surface gravity in m/s2,
+G is the Universal Gravitational Constant, 
+M is the mass of the planet in kilograms, 
+r is the radius of the planet in meters.
