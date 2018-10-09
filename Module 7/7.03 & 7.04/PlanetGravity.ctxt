@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PlanetGravity
+comment0.text=\r\n\ Determines\ the\ surface\ gravity\ on\ each\ planet\ in\ our\ solar\ system\r\n\r\n\ @author\ Ryan\ A.\ Rodriguez\r\n\ @version\ 10/9/2018\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=arrayInput
+comment2.target=double[]\ convertToDiametersM(double[])
+comment3.params=
+comment3.target=double\ calculateSurfaceGravity()
+comment4.params=
+comment4.target=void\ writeResults()
+comment5.params=
+comment5.target=void\ readResults()
+comment6.params=
+comment6.target=void\ printResults()
+numComments=7
