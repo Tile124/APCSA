@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=PlanetWeight
+comment0.text=\r\n\ Determines\ your\ weight\ on\ other\ planets\ in\ our\ solar\ system\r\n\r\n\ @author\ Ryan\ Rodriguez\r\n\ @version\ 10/10/2018\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=arraySize
+comment2.target=double[]\ readFile(java.lang.String[])
+comment3.params=
+comment3.target=double\ userInput()
+comment4.params=userWeight\ gravity
+comment4.target=double[]\ calculateWeightOnPlanets(double,\ double[])
+comment5.params=gravity\ newWeight\ planetNames
+comment5.target=void\ printResults(double[],\ double[],\ java.lang.String[])
+numComments=6
