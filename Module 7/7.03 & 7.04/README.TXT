@@ -1,13 +1,12 @@
 ------------------------------------------------------------------------
-Used for FLVS assignments 7.03 & 7.04.
+This is the project README file. Here, you should describe your project.
+Tell the reader (someone who does not know anything about this project)
+all he/she needs to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE: Planet Gravity
-PURPOSE OF PROJECT: FLVS APCSA training assignments 7.03 & 7.04
-VERSION or DATE: Version 1.0
+PROJECT TITLE:
+PURPOSE OF PROJECT:
+VERSION or DATE:
 HOW TO START THIS PROJECT:
-For use by Ryan R only
 AUTHORS:
-Ryan A. Rodriguez
 USER INSTRUCTIONS:
-For use by Ryan R only
