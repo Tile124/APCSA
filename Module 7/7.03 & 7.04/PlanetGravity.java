@@ -14,7 +14,7 @@ public class PlanetGravity
     double[] mass = new double[]{3.30e23, 4.869e24, 5.972e24, 6.4219e23, 1.900e27, 5.68e26, 8.683e25, 1.0247e26};
     double[] convertedDiameters = convertToDiametersM(diameters);
     double[] surfaceGravity = calculateSurfaceGravity(mass, mass, convertedDiameters);
-    printResults();
+    printResults(planetNames, diameters, mass, surfaceGravity);
     
 }
     
@@ -53,7 +53,7 @@ public class PlanetGravity
     }
     */
    
-    public static void printResults() {
+    public static void printResults(String[] planetNames, double[] diameters, double[] mass, double surfaceGravity[]) {
         System.out.printf("%-23s","\n");
         System.out.printf("%-16S", "Planetary Data");
         System.out.printf("%-16s", "\nPlanet");
@@ -61,6 +61,14 @@ public class PlanetGravity
         System.out.printf("%-16s", "Mass(KG)");
         System.out.printf("%-16s", "g (m/s^2)");
         System.out.println("\n***************************************************************");
+        for (int b = 0; b < surfaceGravity.length; b++) {
+            System.out.printf("%-16s", planetNames[b]);
+            System.out.printf("%-16s", (int)diameters[b]);
+            System.out.printf("%-16s", mass[b]);
+            System.out.printf("%-16s", Math.round(surfaceGravity[b] * 100.00) / 100.00);
+            System.out.println("");
+            
+        }
         
     }
 }
