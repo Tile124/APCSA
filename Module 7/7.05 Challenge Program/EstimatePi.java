@@ -17,18 +17,34 @@ public class EstimatePi
     dartThrows = in.nextInt();
     System.out.println("How many times should the trial be run?");
     trials = in.nextInt();
+    System.out.println(trialRun(dartThrows, trials));
         
     }
     
-    public static double trialRun(int dartThrows, int trialRuns) {
+    public static double[] trialRun(int dartThrows, int trialRuns) {
     double xValue = 0;
     double yValue = 0;
+    int numberOfHits[] = new Int[trialRuns];
+    for (int a = 0; a < trialRuns; a++) {
+     
     for (int i = 0; i < dartThrows; i++) {
-        xValue = ( 2 * Math.random()) - 1
-        // x^2 + y^2 <=1
+        xValue = Math.pow((2*Math.random()-1), 2);
+        yValue = Math.pow((2*Math.random()-1), 2);
+        
+        if (xValue + yValue <= 1) {
+            numberOfHits[a] += 1;
+        }
+    }
+}
+    return numberOfHits;
     }
     
+    public static double Pi(int numberOfHits, int trialRuns, int dartThrows) {
+    
+        double returnValue = (numberOfHits / (trialRuns * dartThrows))
+        return 0.0;
     }
+    
     /*
     public static int[] userInput() {
         Scanner in = new Scanner(System.in);
