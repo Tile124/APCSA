@@ -1,33 +1,41 @@
-
+import java.util.Scanner;
 /**
- * Write a description of class EstimatePi here.
+ * This program estimates the value of Pi by throwing a simulated dart 
+ * that the user specfies
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Ryan A. Rodriguez
+ * @version 10/11/2018
  */
 public class EstimatePi
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class EstimatePi
-     */
-    public EstimatePi()
-    {
-        // initialise instance variables
-        x = 0;
+    public static void main(String[] args) {
+    int dartThrows = 0;
+    int trials = 0;
+    
+    Scanner in = new Scanner(System.in);
+    System.out.println("How many times should the Dart be thrown?");
+    dartThrows = in.nextInt();
+    System.out.println("How many times should the trial be run?");
+    trials = in.nextInt();
+        
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public static double trialRun(int dartThrows, int trialRuns) {
+    double xValue = 0;
+    double yValue = 0;
+    for (int i = 0; i < dartThrows; i++) {
+        xValue = ( 2 * Math.random()) - 1
+        // x^2 + y^2 <=1
     }
+    
+    }
+    /*
+    public static int[] userInput() {
+        Scanner in = new Scanner(System.in);
+        System.out.println("How many times should the Dart be thrown?");
+        
+    return 0;
+    }
+    */
+
 }
