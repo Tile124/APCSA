@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=NuclearLaunchCodesV3
+comment0.text=\r\n\ The\ purpose\ of\ this\ program\ is\ to\ generate\ a\ Nuclear\ Launch\ Code\ and\ pin\ code\ for\ personal\ use\ by\ the\ President.\r\n@author\ Ryan\ A.\ Rodriguez\r\n@version\ 10/17/2018\r\n
+comment1.params=
+comment1.target=NuclearLaunchCodesV3()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=
+comment3.target=int\ launchCode()
+comment4.params=
+comment4.target=int\ pinCode()
+comment5.params=launchCode\ pinCode
+comment5.target=void\ secureOutput(int,\ int)
+numComments=6
