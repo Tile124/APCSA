@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CO2FootprintV1
+comment0.text=\n\ @purpose\:\ To\ calculate\ important\ CO2\ information\ about\ the\ footprints\ of\ cars\ related\ to\ their\ enviromental\ impact\ on\ a\ gallon\ per\ gallon\ basis\n\ @author\ Ryan\ A.\ Rodriguez\n\ @version\ 11/1/2018\n
+comment1.params=gallons
+comment1.target=CO2FootprintV1(double)
+comment2.params=
+comment2.target=void\ calcTonsCO2()
+comment3.params=
+comment3.target=void\ convertTonsToPounds()
+comment4.params=
+comment4.target=double\ getGallons()
+comment5.params=
+comment5.target=double\ getTonsCO2()
+comment6.params=
+comment6.target=double\ getPoundsCO2()
+numComments=7
