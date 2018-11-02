@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=missileV8
+comment0.text=\n\ MissileV8\ calculates\ missile\ range\ based\ on\ missile\ type\n\n\ @author\ Ryan\ A.\ Rodriguez\n\ @version\ 11/1/2018\n
+comment1.params=Name\ missileSpeed1\ missilePower1
+comment1.target=missileV8(java.lang.String,\ double,\ double)
+comment2.params=
+comment2.target=java.lang.String\ getMissileName()
+comment3.params=
+comment3.target=double\ getMissileSpeed()
+comment4.params=
+comment4.target=double\ getMissilePower()
+comment5.params=
+comment5.target=double\ getMissileRange()
+comment6.params=
+comment6.target=double\ getMissileFlyTime()
+numComments=7

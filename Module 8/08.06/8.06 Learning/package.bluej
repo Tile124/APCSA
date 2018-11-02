@@ -1,4 +1,7 @@
 #BlueJ package file
+dependency1.from=OverloadedMethodsTesterV2
+dependency1.to=OverloadedMethodsV2
+dependency1.type=UsesDependency
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
@@ -13,7 +16,7 @@ package.editor.x=275
 package.editor.y=107
 package.frame.height=600
 package.frame.width=800
-package.numDependencies=0
+package.numDependencies=1
 package.numTargets=3
 package.showExtends=true
 package.showUses=true
