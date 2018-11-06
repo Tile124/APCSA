@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=DartThrower
+comment0.text=\r\n\ @purpose\:\ To\ throw\ a\ bunch\ of\ darts\ to\ simulate\ PI\r\n\r\n\ @author\ Ryan\ A.\ Rodriguez\r\n\ @version\ 11/6/2018\r\n
+comment1.params=dartThrows
+comment1.target=DartThrower(int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ type\ DartThrower\r\n\ @param\ Amount\ of\ dart\ throws\ per\ object\r\n
+comment2.params=dartThrows
+comment2.target=void\ calcPi(int)
+comment3.params=
+comment3.target=double\ getPiValue()
+comment4.params=
+comment4.target=double\ getDartThrows()
+numComments=5

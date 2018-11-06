@@ -1,8 +1,8 @@
 /**
- * @purpose
+ * @purpose: To find the CO2 from waste
  *
- * @author (enter your name)
- * @version (enter today's date)
+ * @author Ryan A. Rodriguez
+ * @version 11/5/2018
  *
  */
 public class CO2FromWasteV1
@@ -21,7 +21,11 @@ public class CO2FromWasteV1
     */
    CO2FromWasteV1(int numPeople, boolean paper, boolean plastic, boolean glass, boolean cans)
    {
-       //******* fill in code for constructor here ****//
+       myNumPeople = numPeople;
+       myPaper = paper;
+       myPlastic = plastic;
+       myGlass = glass;
+       myCans = cans;
    }
 
    /**
@@ -29,7 +33,7 @@ public class CO2FromWasteV1
     */
    public void calcGrossWasteEmission()
    {
-        //******* fill in code for method here ****//
+        myEmissions = 1018 * myNumPeople;
    }
 
    /**
@@ -41,8 +45,15 @@ public class CO2FromWasteV1
        {
            myReduction += (184.0 * myNumPeople);
        }
-
-      //******* fill in rest of method here ****//
+       if(myPlastic)
+       {
+           myReduction += (25.6 * myNumPeople);
+       }
+       if(myCans)
+       {
+           myReduction += (46.6 * myNumPeople);
+       }
+       
 
    }
 
@@ -51,7 +62,9 @@ public class CO2FromWasteV1
     */
    public void calcNetWasteReduction()
    {
-        //******* fill in rest of method here ****//
+        calcGrossWasteEmission();
+        calcWasteReduction();
+        myNetEmissions = myEmissions - myReduction;
    }
 
    /**
