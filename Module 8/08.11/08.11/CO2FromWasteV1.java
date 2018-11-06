@@ -10,7 +10,6 @@ public class CO2FromWasteV1
    private int myNumPeople;
    private boolean myPaper, myPlastic, myGlass, myCans;
    private double myEmissions, myReduction, myNetEmissions;
-   private double grossEmissions;
 
    /**
     * Constructor for objects of type CO2FromWaste
@@ -34,7 +33,7 @@ public class CO2FromWasteV1
     */
    public void calcGrossWasteEmission()
    {
-        grossEmissions = 1018 * myNumPeople;
+        myEmissions = 1018 * myNumPeople;
    }
 
    /**
@@ -65,7 +64,7 @@ public class CO2FromWasteV1
    {
         calcGrossWasteEmission();
         calcWasteReduction();
-        
+        myNetEmissions = myEmissions - myReduction;
    }
 
    /**
