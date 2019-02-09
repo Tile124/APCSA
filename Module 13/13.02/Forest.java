@@ -5,29 +5,21 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Forest
+public class Forest extends Terrain
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Forest
-     */
-    public Forest()
+    int amountOfTrees;
+    int length;
+    int width;
+    public Forest (int l, int w, int treeCount)
     {
-        // initialise instance variables
-        x = 0;
+        super(l,w);
+        length = l;
+        width = w;
+        amountOfTrees = treeCount;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public String getTreeCount() {
+    return amountOfTrees;
     }
+   
 }

@@ -7,27 +7,13 @@
  */
 public class GameTerrainTester
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class GameTerrainTester
-     */
-    public GameTerrainTester()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public static void main(String[] args) {
+     Terrain land = new Terrain(500, 999);
+     Forest forest = new Forest(99,11,999999);
+     WinterMountain winterLand = new WinterMountain(67,68,68,99);
+     Mountain mountain = new Mountain(99,99,99);
+     
+     System.out.println(land.getTerrainSize());
+        
     }
 }

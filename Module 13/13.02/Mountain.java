@@ -5,29 +5,21 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Mountain
+public class Mountain extends Terrain
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Mountain
-     */
-    public Mountain()
+    int amountOfMountains;
+    int length;
+    int width;
+    public Mountain (int l, int w, int mountainCount)
     {
-        // initialise instance variables
-        x = 0;
+        super(l,w);
+        length = l;
+        width = w;
+        amountOfMountains = mountainCount;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public String getMountains() {
+    return ("Mountain land has dimensions " + length + " X " + width + "and has "+ amountOfMountains + " mountains");
     }
+   
 }

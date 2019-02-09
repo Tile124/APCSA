@@ -5,29 +5,23 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class WinterMountain
+public class WinterMountain extends Mountain
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class WinterMountain
-     */
-    public WinterMountain()
+    int temperature;
+    int mountainCount;
+    int length;
+    int width;
+    public WinterMountain (int l, int w, int mountainCount, int temperature1)
     {
-        // initialise instance variables
-        x = 0;
+        super(l,w, mountainCount);
+        length = l;
+        width = w;
+        mountainCount = mountainCount;
+        temperature = temperature1;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public String getTemperature() {
+    return temperature;
     }
+   
 }
