@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Mountain here.
+ * Defines Mountain terrain
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Ryan Rodriguez
+ * @version 2/9/2019
  */
 public class Mountain extends Terrain
 {
@@ -19,7 +19,7 @@ public class Mountain extends Terrain
     }
     
     public String getMountains() {
-    return ("Mountain land has dimensions " + length + " X " + width + "and has "+ amountOfMountains + " mountains");
+    return ("Mountain land has dimensions " + length + " X " + width + " and has "+ amountOfMountains + " mountains");
     }
    
 }

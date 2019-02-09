@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Forest here.
+ * Defines a forest
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Ryan Rodriguez
+ * @version 2/9/2019
  */
 public class Forest extends Terrain
 {
@@ -19,7 +19,7 @@ public class Forest extends Terrain
     }
     
     public String getTreeCount() {
-    return amountOfTrees;
+    return ("Forest land has dimensions " + length + " X " + width + " and has "+ amountOfTrees + " trees");
     }
    
 }

@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class GameTerrainTester here.
+ * Tests Terrain
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Ryan Rodriguez
+ * @version 2/9/2019
  */
 public class GameTerrainTester
 {
@@ -14,6 +14,8 @@ public class GameTerrainTester
      Mountain mountain = new Mountain(99,99,99);
      
      System.out.println(land.getTerrainSize());
-        
+     System.out.println(forest.getTreeCount());
+     System.out.println(winterLand.getTemperature());
+     System.out.println(mountain.getMountains());
     }
 }

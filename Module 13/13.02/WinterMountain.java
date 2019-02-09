@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class WinterMountain here.
+ * Defines winter mountain
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Ryan Rodriguez
+ * @version 2/9/2019
  */
 public class WinterMountain extends Mountain
 {
@@ -21,7 +21,7 @@ public class WinterMountain extends Mountain
     }
     
     public String getTemperature() {
-    return temperature;
+    return ("Winter Mountain land has dimensions " + length + " X " + width + " and has "+ amountOfMountains + " mountains with a temperature of " + temperature);
     }
    
 }
