@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=OvalCylinder2
+comment0.text=\n\ This\ class\ defines\ an\ Oval\ Cylinder\ object\ that\ extends\ an\ Oval.\n\n\ @author\ Ryan\ Rodriguez\n\ @version\ \ 2/12/2019\n
+comment1.params=x\ y\ rad1\ rad2\ h
+comment1.target=OvalCylinder2(int,\ int,\ int,\ int,\ int)
+comment2.params=
+comment2.target=int\ getHeight()
+numComments=3
